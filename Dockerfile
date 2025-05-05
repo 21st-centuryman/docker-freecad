@@ -18,7 +18,6 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
-    wget \
     python3-pyside2.qtwebchannel \
     python3-pyside2.qtwebengine* && \
   echo "**** add testing repo for freecad ****" && \
